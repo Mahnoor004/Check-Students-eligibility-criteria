@@ -1,0 +1,8 @@
+classes_held = input ('Enter the number of classes held ')
+classes_attended = input('Enter the number of classes attended ')
+total_percentage =( int(classes_attended) / int(classes_held) )* 100
+print('Percentage of classes attended is ', total_percentage,'%')
+if total_percentage<75:
+    print('Student is not allowed to sit in exams')
+else:
+    print('Student is allowed to sit in exams')
