@@ -1,0 +1,12 @@
+Name = input('Please Enter Name of Employee ')
+Salary = input('Please enter your Basic Salary ')
+House_Rent = (25/100)*int(Salary)
+print('House rent is ',House_Rent)
+Convenience = (15/100)*int(Salary)
+print('Convenience is ',Convenience)
+Special_Allowance = (25/100)*int(Salary)
+print('Special Allowance is ',Special_Allowance)
+Medical_Allowance = (10/100)*int(Salary)
+print('Medical Allowance is ',Medical_Allowance)
+Total_Salary = int(Salary)+House_Rent+Convenience+Special_Allowance+Medical_Allowance
+print('Total Salary of ',Name,' is ',Total_Salary)
