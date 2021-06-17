@@ -1,0 +1,3 @@
+num=input('Please enter what you want to get in Right Triangle  ')
+for x in range(1,11):
+    print(num*x)
