@@ -1,0 +1,14 @@
+list=[90,80,90,40,50,60]
+sum=0
+avg=0
+for x in range(len(list)):
+    sum=int(sum)+int(list[x])
+avg = int(sum)/len(list)
+print(avg)
+for i in range(0,len(list)):
+    for k in range(0,len(list)):
+        if int(list[i])<int(list[k]):
+            a = int(list[i])
+            list[i]=int(list[k])
+            list[k]=int(a)
+print(list)
