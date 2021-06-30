@@ -1,0 +1,15 @@
+z=((10,10,10,12),(30,45,56,45),(81,80,39,32),(1,2,3,4))
+a=(10,10,10,12)
+b=(30,45,56,45)
+c=(81,80,39,32)
+d=(1,2,3,4)
+for i in a:
+    average1=sum(a)/len(a)
+for j in b:
+    average2=sum(b)/len(b)
+for k in c:
+    average3=sum(c)/len(c)
+for l in d:
+    average4=sum(d)/len(d)
+total_avg=(average1+average2+average3+average4)/len(z)
+print(total_avg)
