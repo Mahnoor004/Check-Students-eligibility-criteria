@@ -1,0 +1,6 @@
+tuple = ('Mon','wed','Mon','Mon')
+result =tuple.count(tuple[0]) == len(tuple)
+if result:
+   print("All the elements are Equal")
+else:
+   print("Elements are not equal")
