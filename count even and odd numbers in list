@@ -1,0 +1,13 @@
+list=[]
+count=0
+count1=0
+for x in range(1,101):
+    list.append(x)
+print(list)
+for x in list:
+ if x%2==0:
+       count=count+1
+ else:
+     count1=count+1
+print(count)
+print(count1)
